@@ -1,0 +1,40 @@
+# ========================
+# Node.js (Backend)
+# ========================
+node_modules/
+.env
+.env.*  # In case of multiple envs like .env.dev, .env.prod
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Optional build files
+dist/
+build/
+
+# ========================
+# React App (Frontend)
+# ========================
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# ========================
+# System & Editor Files
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VSCode & IDE settings
+.vscode/
+.idea/
+
+# ========================
+# Misc
+# ========================
+*.zip
+*.tar.gz
